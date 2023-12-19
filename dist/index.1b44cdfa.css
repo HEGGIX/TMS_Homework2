@@ -1,3 +1,27 @@
+body {
+  margin: 0;
+}
 
+.objective-section {
+  background: radial-gradient(#ff333380, #000);
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 100px;
+}
+
+.subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+}
 
 /*# sourceMappingURL=index.1b44cdfa.css.map */
