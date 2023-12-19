@@ -9,6 +9,8 @@ body {
 .title {
   color: #fff;
   text-align: center;
+  margin: 0;
+  padding-top: 92px;
   font-family: Lato, sans-serif;
   font-size: 100px;
   font-weight: 500;
@@ -18,10 +20,58 @@ body {
 .subtitle {
   color: #fff;
   text-align: center;
+  margin-top: 20px;
+  padding-bottom: 60px;
   font-family: Lato, sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 29px;
+}
+
+.objective__card-container {
+  justify-content: space-between;
+  width: 71.15%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.objective-card {
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  width: 23.26%;
+  height: 280px;
+  display: flex;
+}
+
+.objective-card img {
+  margin-top: 30px;
+}
+
+.objective__card-text {
+  color: #fff;
+  text-align: center;
+  width: 281px;
+  margin-top: 20px;
+}
+
+.text-section {
+  background: #000;
+  height: 730px;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  width: 933px;
+  margin-top: 0;
+  font-family: Lato, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 65px;
 }
 
 /*# sourceMappingURL=index.1b44cdfa.css.map */
