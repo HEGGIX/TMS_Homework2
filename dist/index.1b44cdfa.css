@@ -18,17 +18,19 @@ body {
 }
 
 .subtitle {
-  color: #fff;
   text-align: center;
-  margin-top: 20px;
+  color: #fff;
+  width: 470px;
+  margin: 20px auto 0;
   padding-bottom: 60px;
   font-family: Lato, sans-serif;
   font-size: 22px;
   font-weight: 400;
-  line-height: 29px;
+  line-height: 28px;
 }
 
 .objective__card-container {
+  flex-wrap: nowrap;
   justify-content: space-between;
   width: 71.15%;
   margin: 0 auto;
@@ -37,7 +39,7 @@ body {
 }
 
 .objective-card {
-  background: #000;
+  background: linear-gradient(to top left, #2f2e2e80, #cccccc80);
   border: 1px solid #000;
   border-radius: 8px;
   flex-direction: column;
@@ -54,7 +56,7 @@ body {
 .objective__card-text {
   color: #fff;
   text-align: center;
-  width: 281px;
+  width: 88.1%;
   margin-top: 20px;
   font-family: Lato, sans-serif;
   font-size: 22px;
@@ -64,11 +66,13 @@ body {
 
 .text-section {
   background: #000;
+  position: relative;
 }
 
 .text-container {
+  text-align: center;
   align-items: center;
-  width: 933px;
+  width: 51.5%;
   height: 730px;
   margin: 0 auto;
   display: flex;
@@ -76,7 +80,6 @@ body {
 
 .text {
   color: #fff;
-  text-align: center;
   margin-top: 0;
   font-family: Lato, sans-serif;
   font-size: 50px;
@@ -90,8 +93,168 @@ body {
   width: 665px;
   height: 278px;
   position: absolute;
-  bottom: -200px;
+  bottom: 34.2%;
+  left: 20.75%;
   transform: rotate(16deg);
+}
+
+@media (width <= 1505px) {
+  .objective__card-text {
+    font-size: 18px;
+  }
+}
+
+@media (width <= 1231px) {
+  .objective__card-text {
+    font-size: 16px;
+  }
+}
+
+@media (width <= 1094px) {
+  .circle {
+    width: 530px;
+    height: 220px;
+    bottom: 40%;
+  }
+
+  .objective__card-container {
+    width: 90%;
+  }
+
+  .objective__card-text {
+    font-size: 16px;
+  }
+}
+
+@media (width <= 957px) {
+  .circle {
+    width: 500px;
+    height: 200px;
+    bottom: 40%;
+  }
+}
+
+@media (width <= 865px) {
+  .objective__card-text {
+    font-size: 14px;
+  }
+
+  .circle {
+    left: 18%;
+  }
+}
+
+@media (width <= 768px) {
+  .objective__card-container {
+    flex-wrap: wrap;
+  }
+
+  .objective-card {
+    width: 48%;
+  }
+
+  .objective-card:nth-child(3), .objective-card:nth-child(4) {
+    margin-top: 20px;
+  }
+
+  .objective__card-text {
+    font-size: 22px;
+  }
+
+  .circle {
+    left: 15%;
+  }
+}
+
+@media (width <= 670px) {
+  .circle {
+    left: 12%;
+  }
+}
+
+@media (width <= 616px) {
+  .objective__card-text {
+    font-size: 20px;
+  }
+
+  .circle {
+    left: 8%;
+  }
+
+  .text {
+    font-size: 40px;
+  }
+}
+
+@media (width <= 585px) {
+  .title {
+    font-size: 80px;
+  }
+
+  .subtitle, .objective__card-text {
+    font-size: 18px;
+  }
+
+  .circle {
+    width: 420px;
+    height: 180px;
+  }
+
+  .text {
+    font-size: 35px;
+  }
+}
+
+@media (width <= 509px) {
+  .title {
+    font-size: 70px;
+  }
+
+  .subtitle, .objective__card-text {
+    font-size: 16px;
+  }
+
+  .circle {
+    left: 6%;
+  }
+}
+
+@media (width <= 475px) {
+  .circle {
+    width: 380px;
+    height: 150px;
+    bottom: 45%;
+    left: 4%;
+  }
+
+  .subtitle {
+    width: 400px;
+  }
+
+  .objective__card-text {
+    font-size: 14px;
+  }
+
+  .text-container {
+    width: 81.5%;
+  }
+}
+
+@media (width <= 415px) {
+  .circle {
+    width: 300px;
+    height: 110px;
+    bottom: 45%;
+    left: 4%;
+  }
+
+  .text-container {
+    width: 71.5%;
+  }
+
+  .text {
+    font-size: 35px;
+  }
 }
 
 /*# sourceMappingURL=index.1b44cdfa.css.map */
